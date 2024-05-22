@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>To-Do List</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="container">
+            <h2>TO-DO List <img src="Photo/To do list icon.png"></h2>
+            <div class ="row">
+                <input type="text" id="input-box" placeholder="Enter Your Task">
+                <button class ="imp" onclick= "imp()">Important</button>
+            </div>
+            <div class ="row1">
+                <div class="datetime">
+                <input type="date" id="eventDate">
+                <input type="time" id="eventTime"></div>
+                <div class ="butt">
+                <button class ="add" onclick= "add()">Add</button></div>
+            </div>
+            <ul id ="list">
+            </ul>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html> 
